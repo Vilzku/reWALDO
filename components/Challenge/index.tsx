@@ -10,7 +10,7 @@ interface Props {
   answer: number[];
 }
 
-export default function WaldoImage({ id, answer }: Props) {
+export default function Challenge({ id, answer }: Props) {
   const [selectedTiles, setSelectedTiles] = useState<number[]>([]);
 
   const toggleTile = (tileId: number) => {

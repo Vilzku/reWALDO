@@ -8,7 +8,7 @@ body {
   align-items: center;
   background-color: $color-white;
 
-  * {
+  .MuiButton-root {
     font-family: inherit !important;
   }
 }
